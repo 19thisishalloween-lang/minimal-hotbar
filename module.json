@@ -6,7 +6,7 @@
   "authors": [{ "name": "19thisishalloween" }],
   "compatibility": {
     "minimum": "10",
-    "verified": "13"
+    "verified": "13.351"
   },
   "esmodules": [
     "https://raw.githubusercontent.com/19thisishalloween-lang/minimal-hotbar/refs/heads/main/scriptsmain.js"
