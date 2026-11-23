@@ -1,7 +1,7 @@
 {
 "id": "minimal-hotbar",
   "title": "Minimal UI Panels",
-  "description": "Скрывает панель игроков, слоты действий и режим броска, оставляя только кнопку главного меню.",
+  "description": "Back to main menu.",
   "version": "1.1.0",
   "authors": [{ "name": "Custom" }],
   "compatibility": {
