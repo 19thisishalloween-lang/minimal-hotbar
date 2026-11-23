@@ -1,0 +1,20 @@
+/* styles/minimal-hotbar.css */
+
+/* Когда включено — скрываем указанные панели */
+body.minimal-ui-hidden #players,
+body.minimal-ui-hidden #action-bar,
+body.minimal-ui-hidden #hotbar-controls-right,
+body.minimal-ui-hidden #hotbar-controls-left [data-action="mute"],
+body.minimal-ui-hidden #roll-privacy {
+  display: none !important;
+}
+
+/* Стиль кнопки-переключателя (наследует большинство стилей от ui-control) */
+#minimal-ui-toggle {
+  margin-top: 2px;
+}
+
+/* Небольшой запас, если кнопка окажется рядом, а не под кнопкой свёртывания */
+#minimal-ui-toggle:not([style]) {
+  display: block;
+}
