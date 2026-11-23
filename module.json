@@ -1,0 +1,19 @@
+{
+  "id": "minimal-hotbar",
+  "title": "Minimal Hotbar",
+  "description": "Collapses the bottom action bar, leaving only the main menu button.",
+  "version": "1.0.0",
+  "authors": [{ "name": "19thisishalloween" }],
+  "compatibility": {
+    "minimum": "10",
+    "verified": "13"
+  },
+  "esmodules": [
+    "https://raw.githubusercontent.com/19thisishalloween-lang/minimal-hotbar/refs/heads/main/scriptsmain.js"
+  ],
+  "styles": [
+    "https://raw.githubusercontent.com/19thisishalloween-lang/minimal-hotbar/refs/heads/main/stylesminimal-hotbar.css"
+  ],
+  "manifest": "https://raw.githubusercontent.com/19thisishalloween-lang/minimal-hotbar/refs/heads/main/module.json",
+  "download": "https://github.com/19thisishalloween-lang/minimal-hotbar/archive/refs/heads/main.zip"
+}
