@@ -1,0 +1,43 @@
+/* styles/minimal-hotbar.css */
+
+/* Кнопка-переключатель в правом нижнем углу */
+#minimal-hotbar-toggle {
+  position: fixed;
+  bottom: 12px;
+  right: 12px;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  background: rgba(0, 0, 0, 0.75);
+  color: #ff6400;
+  border: 1px solid #ff6400;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 30px;
+  text-align: center;
+  z-index: 1000;
+  user-select: none;
+}
+
+#minimal-hotbar-toggle:hover {
+  background: rgba(255, 100, 0, 0.25);
+}
+
+/* ============================================
+   Когда панель свёрнута — скрываем лишнее.
+   Селекторы подобраны под структуру хотбара
+   Foundry VTT v10–v13. Если у вас другая
+   версия и что-то осталось видимым — откройте
+   F12, найдите класс элемента и добавьте его
+   в список ниже.
+   ============================================ */
+
+body.minimal-hotbar-collapsed #hotbar .macro-list,
+body.minimal-hotbar-collapsed #hotbar .hotbar-page-control,
+body.minimal-hotbar-collapsed #hotbar .lock-hotbar,
+body.minimal-hotbar-collapsed #hotbar .clear-hotbar,
+body.minimal-hotbar-collapsed #hotbar .bar-controls > *:not(.main-menu-button),
+body.minimal-hotbar-collapsed #hotbar .hotbar-controls > *:not(.main-menu-button) {
+  display: none !important;
+}
